@@ -79,6 +79,10 @@
 	<dict>
 		<key>C6</key>
 		<false/>
+		<key>FrequencyMHz</key>
+		<integer>4100</integer>
+		<key>Type</key>
+		<string>0x0204</string>
 		<key>UseARTFrequency</key>
 		<false/>
 	</dict>
@@ -120,6 +124,7 @@
 			<string>Preboot</string>
 			<string>Legacy</string>
 			<string>System Reserved</string>
+			<string>Recovery</string>
 		</array>
 		<key>KbdPrevLang</key>
 		<true/>
