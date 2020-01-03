@@ -1,0 +1,51 @@
+
+Clover EFI installer log - Fri Jan  3 23:21:38 +07 2020
+Installer version: v2.5k r5102 EFI bootloader
+======================================================
+/dev/disk0 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *250.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk1         249.8 GB   disk0s2
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +249.8 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume macOS - Data            231.4 GB   disk1s1
+   2:                APFS Volume Preboot                 80.9 MB    disk1s2
+   3:                APFS Volume Recovery                528.9 MB   disk1s3
+   4:                APFS Volume VM                      1.1 GB     disk1s4
+   5:                APFS Volume macOS                   10.7 GB    disk1s5
+
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *250.1 GB   disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:                 Apple_APFS Container disk3         249.7 GB   disk2s2
+
+/dev/disk3 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +249.7 GB   disk3
+                                 Physical Store disk2s2
+   1:                APFS Volume Catalina - Data         192.6 GB   disk3s1
+   2:                APFS Volume Preboot                 150.9 MB   disk3s2
+   3:                APFS Volume Recovery                528.5 MB   disk3s3
+   4:                APFS Volume VM                      1.1 GB     disk3s4
+   5:                APFS Volume Catalina                12.3 GB    disk3s5
+
+======================================================
+Backing up EFI files
+
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+Stage 2 - Written boot6 (x64) to //boot
+
+Theme 'Clovy' (defined in config.plist) not found !
+Using default theme 'newyear'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
